@@ -1,5 +1,5 @@
 
-![Logo](https://raw.githubusercontent.com/NotWithering/housing/main/housingtext.png)
+![Logo](https://raw.githubusercontent.com/NotWithering/housing/main/banner.png)
 
 
 
