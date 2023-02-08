@@ -35,6 +35,8 @@ input.name {
     font-size: 200%;
     text-align: center;
     color: var(--text-color);
+    font-family: FreeMono;
+    font-weight: bold;
 }
 
 p.description {
@@ -45,7 +47,7 @@ p.description {
     font-size: var(--font-size);
     font-family: FreeMono;
     color: var(--text-color);
-    font-weight:bolder;
+    font-weight:bold;
 }
 
 input::-webkit-input-placeholder {color:#999;}
