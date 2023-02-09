@@ -6,6 +6,7 @@
     --text-color: #442c16;
     --placeholder-text-color: #8888;
     --font-size: 250%;
+    --result-font-size: 150%
 }
 
 html {
@@ -48,6 +49,37 @@ p.description {
     font-family: FreeMono;
     color: var(--text-color);
     font-weight:bold;
+}
+
+p.result {
+    font-size: var(--result-font-size);
+    font-family: FreeMono;
+    color: var(--text-color);
+    font-weight:bold;
+}
+
+button.srcagain {
+    position: fixed;
+    width: 20%;
+    height: 5%;
+    left: 50%;
+    top: 75%;
+    transform: translateX(-50%);
+    border-radius: 50rem;
+    background-color: var(--input-color);
+    border-color: var(--input-border-color);
+    border-style: solid;
+    border-width: var(--input-border-thickness);
+    font-size: 200%;
+    text-align: center;
+    color: var(--text-color);
+    font-family: FreeMono;
+    font-weight: bold;
+}
+
+button.srcagain:hover {
+    border-style: dashed;
+    cursor: pointer;
 }
 
 input::-webkit-input-placeholder {color:#999;}
