@@ -37,7 +37,7 @@ inputElement.addEventListener("keydown", event => {
             resultsContainer.appendChild(houseElement);
             resultsContainer.appendChild(ownerElement);
             resultsContainer.appendChild(visitCommandElement);
-            resultsContainer.appendChild(document.createElement("br"));
+            resultsContainer.appendChild(document.createElement("hr"));
           }
         });
 
@@ -45,6 +45,8 @@ inputElement.addEventListener("keydown", event => {
         resultCountElement.textContent = `${resultCount} Results Found`;
         resultCountElement.classList.add("result");
         document.body.appendChild(resultCountElement);
+
+        document.body.appendChild(document.createElement("hr"));
 
         document.body.appendChild(resultsContainer);
 
