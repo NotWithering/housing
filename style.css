@@ -58,6 +58,11 @@ p.result {
     font-weight:bold;
 }
 
+hr {
+    color: var(--text-color);
+    border-top: 5px solid;
+}
+
 button.srcagain {
     position: fixed;
     width: 20%;
