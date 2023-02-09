@@ -1,9 +1,9 @@
 * {
-    --background-color: #26272b;
+    --background-color: #442c16;
     --input-color: #1f2024;
-    --input-border-color: #442c16;
+    --input-border-color: #FFFFFF;
     --input-border-thickness: 5%;
-    --text-color: #442c16;
+    --text-color: #FFFFFF;
     --placeholder-text-color: #8888;
     --font-size: 250%;
     --result-font-size: 150%
