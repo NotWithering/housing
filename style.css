@@ -1,6 +1,6 @@
 * {
     --background-color: #0d1117;
-    --input-color: #1f2024;
+    --input-color: #0d1117;
     --input-border-color: #FFFFFF;
     --input-border-thickness: 5%;
     --text-color: #FFFFFF;
@@ -14,20 +14,26 @@ html {
 }
 
 img.banner {
-    position: fixed;
-    width: 40%;
-    left: 50%;
-    top: 0%;
-    transform: translateX(-50%);
+    width: 30%;
+    margin-left: 50%;
+    translate: -50%;
+}
+
+p.description {
+    margin-left: 50%;
+    translate: -50%;
+
+    font-size: var(--font-size);
+    font-family: FreeMono;
+    color: var(--text-color);
+    font-weight:bold;
 }
 
 input.name {
-    position: fixed;
-    width: 20%;
-    height: 5%;
-    left: 50%;
-    top: 75%;
-    transform: translateX(-50%);
+    width: 50%;
+    margin-left: 50%;
+    translate: -50%;
+
     border-radius: 50rem;
     background-color: var(--input-color);
     border-color: var(--input-border-color);
@@ -38,17 +44,6 @@ input.name {
     color: var(--text-color);
     font-family: FreeMono;
     font-weight: bold;
-}
-
-p.description {
-    position: fixed;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%);
-    font-size: var(--font-size);
-    font-family: FreeMono;
-    color: var(--text-color);
-    font-weight:bold;
 }
 
 p.result {
@@ -65,11 +60,10 @@ hr {
 
 button.srcagain {
     position: fixed;
-    width: 20%;
-    height: 5%;
     left: 50%;
+    translate: -50%;
     top: 75%;
-    transform: translateX(-50%);
+
     border-radius: 50rem;
     background-color: var(--input-color);
     border-color: var(--input-border-color);
